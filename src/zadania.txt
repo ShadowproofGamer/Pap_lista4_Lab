@@ -1,0 +1,12 @@
+Zad. 1. [2+2p] Napisać w OCaml funkcję ('a -> bool) -> 'a list -> 'a list,
+która usuwa z listy wszystkie elementy spełniające zadany predykat.
+Funkcję napisać w wersji wykorzystującej zwykłą rekurencję i w wersji wykorzystującej rekurencję ogonową.
+
+Zad. 2. [3p] Wykorzystując fakt, że wartość ilorazu  różnicowego jest przybliżeniem wartości pochodnej funkcji.
+napisać w OCaml stosującą rekurencję ogonową funkcję
+(float -> float) -> float list -> float -> float list
+wyznaczającą dla funkcji zadanej parametrem przybliżenia wartości jej pochodnych
+(ustalona parametrem dokładność dx) w punktach zadanych listą.
+Pochodne mają być zwrócone w postaci listy ich wartości.
+
+Zad. 3. [3p] Wyznaczyć wartość g’(f’(x)) dla zadanego x. Funkcje f i g są dowolnymi wcześniej zdefiniowanymi funkcjami wykorzystującymi wielomian i funkcje trygonometryczne lub logarytm. Uwzględnić fakt, że wartość ilorazu  różnicowego jest przybliżeniem wartości pochodnej funkcji. Iloraz różnicowy należy specjalizować dla dx=0.0000001. Zadanie wykonać w Scala.
